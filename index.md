@@ -4,7 +4,7 @@ Here I will upload different projects. I am currently studying front-end develop
 
 
 
-[# Page to Congratulate my mom for finishing the univertity](https://yaelgar03.github.io/Mom/site/)
+[# Page to Congratulate my mom for finishing the univertity](https://yaelgar03.github.io/Yael-Garcia/Mom)
 
 
 ### About Me
