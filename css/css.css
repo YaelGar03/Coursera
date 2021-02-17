@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ html {
+    font-size: 62.5%
+}
+
+/*  HEADER  */
+header {
+    height: 700px;
+    background-color: #E88873;
+    background-image: url(../img/vector.svg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-header{
+    width: 350px;
+    height: 392px;
+    margin: 7%;
+}
+
+.h1-header{
+    width: 800px;
+    font-size: 5rem;
+    margin: 7%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif
+}
+
+.h1-header{
+    width: ;
+    margin-left: 7%;
+}
+
+
+
+/*  BODY  */
+main{
+    display: grid;
+    grid-gap: 2em;
+    justify-content: center;
+    margin: 10%;
+}
+
+section {
+    width: 700px;
+    height: 400px;
+    background-color: #E88873;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgder{
+    background-color: #FCF0ED;
+}
+
+div{
+    width:48.5%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif
+}
+
+#footer{
+    background-color: #E88873;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+#footer span {
+    font-size: 1.1rem;
+    margin-left: 4%;
+}
+
+footer {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 5%;
+}
+
+
+
+
+/*  MEDIA QUERIES  */
+
+@media screen and (min-width: 780px) and (max-width: 1000px){
+
+    .img-header{
+        width: 310px;
+        height: 352px;
+    }
+    
+    .h1-header{
+        width: 600px;
+        font-size: 3.5rem;
+    }
+  }
+
+
+@media screen and (min-width: 650px) and (max-width: 780px){
+
+    .content-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-header{
+        width: 280px;
+        height: 322px;
+        margin: 10%;
+    }
+    
+    .h1-header{
+        width: 450px;
+        font-size: 3.5rem;
+        margin: 10%;
+    }
+
+    section{
+        width: 450px;
+        height: 320px;
+      }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 650px){
+    .content-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-header{
+        width: 280px;
+        height: 322px;
+        margin: 10%;
+    }
+    
+    .h1-header{
+        width: 450px;
+        font-size: 3rem;
+        margin: 10%;
+    }
+    
+    section{
+        width: 350px;
+        height: 220px;
+      }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .content-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-header{
+        width: 260px;
+        height: 302px;
+        margin: 10%;        
+    }
+    
+    .h1-header{
+        width: 300px;
+        font-size: 2.5rem;
+        margin: 10%;
+    }
+
+    section{
+        width: 350px;
+        height: 220px;
+      }
+
+    p {
+        font-size: 1.2rem;
+    }
+  }
+
